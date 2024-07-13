@@ -22,7 +22,7 @@ export const Education = () => {
                                 </a>
                             </h2>
                             <div className="flex items-center space-x-2">
-                                <p className="text-lg">Bachelor's degree, Informatics Engineering</p>
+                                <p className="text-lg">Bachelor&apos;s degree, Informatics Engineering</p>
                                 <p className="text-lg">2018 - 2022</p>
                             </div>
                         </div>
