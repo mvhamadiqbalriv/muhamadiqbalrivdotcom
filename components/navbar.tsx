@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ModeToggle } from "./mode-toggle";
+import Image from 'next/image';
 
 //create navbar with tailwind style
 export const Navbar = () => {
@@ -20,7 +21,7 @@ export const Navbar = () => {
                 <div className="md:flex md:items-center md:justify-between">
                     <div className="flex justify-between items-center">
                         <div className="text-xl font-bold text-gray-800 flex items-center space-x-3">
-                            <img src="https://avatars.githubusercontent.com/u/61414949?v=4" alt="avatar" className="rounded-full w-10 h-10" />
+                            <Image width={500} height={500} src="/profile.jpg" alt="avatar" className="rounded-full w-10 h-10" />
                             <a href="#">muhamadiqbalriv.</a>
                         </div>
                         <div className="flex md:hidden">

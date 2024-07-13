@@ -1,4 +1,5 @@
 import { Badge } from "@/components/ui/badge"
+import Image from "next/image"
 
 export const Experience = () => {
     return (
@@ -12,7 +13,7 @@ export const Experience = () => {
                     <div className="flex space-x-5">
                         <div className="flex mt-1 justify-center pl-4">
                             <a href="https://hashmicro.com" target="_blank">
-                                <img src="/hashmicro.png" alt="Hashmicro" className="min-w-16 max-w-16 min-h-16 max-h-16"  />
+                                <Image width={500} height={500} src="/hashmicro.png" alt="Hashmicro" className="min-w-16 max-w-16 min-h-16 max-h-16"  />
                             </a>
                         </div>
                         <div>
@@ -41,7 +42,7 @@ export const Experience = () => {
                 <div className="flex justify-between py-2">
                     <div className="flex space-x-5">
                         <div className="flex mt-1 justify-center pl-4">
-                            <img src="/gizalab.png" alt="Giza Lab" className="min-w-16 max-w-16 min-h-16 max-h-16" />
+                            <Image width={500} height={500} src="/gizalab.png" alt="Giza Lab" className="min-w-16 max-w-16 min-h-16 max-h-16" />
                         </div>
                         <div>
                             <h2 className="text-2xl font-bold">Fullstack Developer</h2>
@@ -65,7 +66,7 @@ export const Experience = () => {
                 <div className="flex justify-between py-2">
                     <div className="flex space-x-5">
                         <div className="flex mt-1 justify-center pl-4">
-                            <img src="/diskominfo.png" alt="Diskominfosanditik Kab. Sumedang" className="min-w-16 max-w-16 min-h-16 max-h-16" />
+                            <Image width={500} height={500} src="/diskominfo.png" alt="Diskominfosanditik Kab. Sumedang" className="min-w-16 max-w-16 min-h-16 max-h-16" />
                         </div>
                         <div>
                             <h2 className="text-2xl font-bold">Programmer</h2>
@@ -92,7 +93,7 @@ export const Experience = () => {
                 <div className="flex justify-between py-2">
                     <div className="flex space-x-5">
                         <div className="flex mt-1 justify-center pl-4">
-                            <img src="/noiu.png" alt="Diskominfosanditik Kab. Sumedang" className="min-w-16 max-w-16 min-h-16 max-h-16" />
+                            <Image width={500} height={500} src="/noiu.png" alt="Diskominfosanditik Kab. Sumedang" className="min-w-16 max-w-16 min-h-16 max-h-16" />
                         </div>
                         <div>
                             <h2 className="text-2xl font-bold">Project Manager</h2>
@@ -118,7 +119,7 @@ export const Experience = () => {
                 <div className="flex justify-between py-2">
                     <div className="flex space-x-5">
                         <div className="flex mt-1 justify-center pl-4">
-                            <img src="/imcreative.png" alt="Diskominfosanditik Kab. Sumedang" className="min-w-16 max-w-16 min-h-16 max-h-16" />
+                            <Image width={500} height={500} src="/imcreative.png" alt="Diskominfosanditik Kab. Sumedang" className="min-w-16 max-w-16 min-h-16 max-h-16" />
                         </div>
                         <div>
                             <h2 className="text-2xl font-bold">Fullstack Developer</h2>

@@ -1,4 +1,4 @@
-import { Badge } from "@/components/ui/badge"
+import Image from 'next/image';
 
 export const Organization = () => {
     return (
@@ -12,7 +12,7 @@ export const Organization = () => {
                     <div className="flex space-x-5">
                         <div className="flex mt-1 justify-center pl-4">
                             <a href="https://tahungoding.id" target="_blank">
-                                <img src="/tahungoding.png" alt="TAHUNGODING" className="min-w-16 max-w-16 min-h-16 max-h-16"  />
+                                <Image width={500} height={500} src="/tahungoding.png" alt="TAHUNGODING" className="min-w-16 max-w-16 min-h-16 max-h-16"  />
                             </a>
                         </div>
                         <div>
@@ -34,7 +34,7 @@ export const Organization = () => {
                     <div className="flex space-x-5">
                         <div className="flex mt-1 justify-center pl-4">
                             <a href="https://stmik-sumedang.ac.id" target="_blank">
-                                <img src="/stmik.png" alt="Senat Mahasiswa STMIK Sumedang" className="min-w-16 max-w-16 min-h-16 max-h-16"  />
+                                <Image width={500} height={500} src="/stmik.png" alt="Senat Mahasiswa STMIK Sumedang" className="min-w-16 max-w-16 min-h-16 max-h-16"  />
                             </a>
                         </div>
                         <div>

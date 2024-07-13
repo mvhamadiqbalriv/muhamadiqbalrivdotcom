@@ -1,4 +1,4 @@
-import { Badge } from "@/components/ui/badge"
+import Image from 'next/image';
 
 export const Education = () => {
     return (
@@ -12,7 +12,7 @@ export const Education = () => {
                     <div className="flex space-x-5">
                         <div className="flex mt-1 justify-center pl-4">
                             <a href="https://unsap.ac.id" target="_blank">
-                                <img src="/unsap.png" alt="Universitas Sebelas April" className="min-w-16 max-w-16 min-h-16 max-h-16"  />
+                                <Image width={500} height={500} src="/unsap.png" alt="Universitas Sebelas April" className="min-w-16 max-w-16 min-h-16 max-h-16"  />
                             </a>
                         </div>
                         <div>
@@ -33,7 +33,7 @@ export const Education = () => {
                 <div className="flex justify-between py-2">
                     <div className="flex space-x-5">
                         <div className="flex mt-1 justify-center pl-4">
-                            <img src="/nesas.png" alt="SMKN 1 Sumedang" className="min-w-16 max-w-16 min-h-16 max-h-16 object-contain" />
+                            <Image width={500} height={500} src="/nesas.png" alt="SMKN 1 Sumedang" className="min-w-16 max-w-16 min-h-16 max-h-16 object-contain" />
                         </div>
                         <div>
                             <h2 className="text-2xl font-bold">SMKN 1 Sumedang</h2>
