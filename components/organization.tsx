@@ -29,8 +29,8 @@ export const Organization = () => {
                 {
                     organizations.map((organization, index) => (
                         <div key={index} className="flex justify-between py-2">
-                            <div className="flex space-x-5">
-                                <div className="flex mt-1 justify-center pl-4">
+                            <div className="flex md:space-x-5">
+                                <div className="hidden md:flex mt-1 justify-center pl-4">
                                     <a href={organization.link} target="_blank">
                                         <Image width={500} height={500} src={organization.logo} alt={organization.name} className="min-w-16 max-w-16 min-h-16 max-h-16"  />
                                     </a>
@@ -41,7 +41,7 @@ export const Organization = () => {
                                             {organization.name}
                                         </a>
                                     </h2>
-                                    <div className="flex items-center space-x-2">
+                                    <div className=" items-center">
                                         <p className="text-lg">{organization.position}</p>
                                         <p className="text-lg">{organization.year}</p>
                                     </div>

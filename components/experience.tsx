@@ -76,8 +76,8 @@ export const Experience = () => {
                 {
                     experiences.map((experience, index) => (
                         <div key={index} className="flex justify-between py-2">
-                            <div className="flex space-x-5">
-                                <div className="flex mt-1 justify-center pl-4">
+                            <div className="flex md:space-x-5">
+                                <div className="hidden md:flex mt-1 justify-center pl-4">
                                     <a href={experience.company_url} target="_blank">
                                         <Image width={500} height={500} src={experience.company_logo} alt="Hashmicro" className="min-w-16 max-w-16 min-h-16 max-h-16"  />
                                     </a>

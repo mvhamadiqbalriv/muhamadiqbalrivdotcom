@@ -29,8 +29,8 @@ export const Education = () => {
                 {
                     educations.map((education, index) => (
                         <div key={index} className="flex justify-between py-2">
-                            <div className="flex space-x-5">
-                                <div className="flex mt-1 justify-center pl-4">
+                            <div className="flex">
+                                <div className="hidden md:flex mt-1 justify-center pl-4">
                                     <a href={education.university_url} target="_blank">
                                         <Image width={500} height={500} src={education.university_logo} alt="Universitas Sebelas April" className="min-w-16 max-w-16 min-h-16 max-h-16 object-contain"  />
                                     </a>
@@ -41,7 +41,7 @@ export const Education = () => {
                                             {education.university}
                                         </a>
                                     </h2>
-                                    <div className="flex items-center space-x-2">
+                                    <div className="items-center">
                                         <p className="text-lg">{education.degree}</p>
                                         <p className="text-lg">{education.duration}</p>
                                     </div>

@@ -39,8 +39,8 @@ export const Volunteer = () => {
                 {
                     volunteers.map((volunteer, index) => (
                         <div key={index} className="flex justify-between py-2">
-                            <div className="flex space-x-5">
-                                <div className="flex mt-1 justify-center pl-4">
+                            <div className="flex md:space-x-5">
+                                <div className="hidden md:flex mt-1 justify-center pl-4">
                                     <a href={volunteer.company_url} target="_blank">
                                         <Image width={500} height={500} src={volunteer.company_logo} alt="Rumah Creativepreneur Indonesia" className="min-w-16 max-w-16 min-h-16 max-h-16"  />
                                     </a>
