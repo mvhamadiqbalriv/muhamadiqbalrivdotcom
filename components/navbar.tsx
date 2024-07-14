@@ -21,8 +21,8 @@ export const Navbar = () => {
                 <div className="md:flex md:items-center md:justify-between">
                     <div className="flex justify-between items-center">
                         <div className="text-xl font-bold text-gray-800 flex items-center space-x-3">
-                            <Image width={500} height={500} src="/profile.jpg" alt="avatar" className="rounded-full w-10 h-10" />
-                            <a href="#">muhamadiqbalriv.</a>
+                            <Image width={500} height={500} src="/avatar.jpg" alt="avatar" className="rounded-full w-10 h-10 object-contain" />
+                            <a href="https://muhamadiqbalriv.com">muhamadiqbalriv.</a>
                         </div>
                         <div className="flex md:hidden">
                             <button type="button" className="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600" aria-label="toggle menu"

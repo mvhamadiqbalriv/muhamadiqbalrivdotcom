@@ -28,7 +28,7 @@ export const Footer = () => {
                 ))}
             </div>
             <p className='text-small'>muhamadiqbalrivaldi03@gmail.com</p>
-            <p>2024 &copy; All rights reserved</p>
+            <p>{new Date().getFullYear()} &copy; All rights reserved</p>
         </div>
     )
 }
