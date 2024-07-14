@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider"
+import { Analytics } from "@vercel/analytics/react"
 import ScrollToTopButton from "@/components/scroll-to-top-button";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -30,6 +31,7 @@ export default function RootLayout({
             <Navbar />
             {children}
           </ThemeProvider>
+          <Analytics />
           <ScrollToTopButton />
         </div>
       </body>
