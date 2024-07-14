@@ -22,7 +22,7 @@ export const Footer = () => {
             <span className="font-bold py-3">Contact me at:</span>
             <div className="flex items-center justify-center space-x-4">
                 {links.map((link, index) => (
-                    <Link key={index} href={link.href} className="text-primary-500 hover:text-primary-600 transition-colors duration-150 ease-in-out">
+                    <Link key={index} href={link.href} target="_blank" className="text-primary-500 hover:text-primary-600 transition-colors duration-150 ease-in-out">
                             {link.icon}
                     </Link>
                 ))}

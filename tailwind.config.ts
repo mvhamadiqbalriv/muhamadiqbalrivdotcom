@@ -74,7 +74,6 @@ const config = {
       },
       fontFamily: {
         "playwrite": ["Playwrite CU", "sans-serif"],
-        "sundanese": ["Noto Sans Sundanese", "sans"],
       }
     },
   },

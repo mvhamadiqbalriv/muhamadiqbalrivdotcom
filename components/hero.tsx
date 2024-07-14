@@ -11,7 +11,7 @@ export const Hero = () => {
                         Hallo,
                         </span> let&apos;s collaborate with me to build amazing digital products.
                     </h1>
-                    <Image src="/profile.jpg" width={1080} height={0} className="py-4 min-h-60 max-h-60 w-full object-cover rounded-lg" alt="" />
+                    <Image src="/profile.jpg" width={1080} height={0} className="py-4 min-h-60 max-h-60 w-full object-cover rounded-lg" alt="" layout="responsive" blurDataURL="/profile.jpg" />
                     <p className="text-xl py-4">
                         I&apos;m a software engineer based in Indonesia. I specialize in building high-quality websites and applications with modern technologies.
                     </p>

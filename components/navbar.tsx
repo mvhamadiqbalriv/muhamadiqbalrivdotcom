@@ -20,7 +20,7 @@ export const Navbar = () => {
             <div className="sm:container mx-auto py-3">
                 <div className="md:flex md:items-center md:justify-between">
                     <div className="flex justify-between items-center">
-                        <div className="text-xl font-bold text-gray-800 flex items-center space-x-3">
+                        <div className="text-xl font-bold text-gray-800 dark:text-gray-200 flex items-center space-x-3">
                             <Image width={500} height={500} src="/avatar.jpg" alt="avatar" className="rounded-full w-10 h-10 object-contain" />
                             <a href="https://muhamadiqbalriv.com">muhamadiqbalriv.</a>
                         </div>
@@ -35,10 +35,10 @@ export const Navbar = () => {
                         </div>
                     </div>
                     <div className="hidden md:flex items-center space-x-10">
-                        <a href="#" className="text-gray-800 hover:text-gray-600">Home</a>
-                        <a href="#experience" className="text-gray-800 hover:text-gray-600">Experience</a>
-                        <a href="#education" className="text-gray-800 hover:text-gray-600">Education</a>
-                        <a href="#footer" className="text-gray-800 hover:text-gray-600">Contact</a>
+                        <a href="#" className="text-gray-800 hover:text-gray-600 dark:text-gray-200 dark:hover:text-gray-50">Home</a>
+                        <a href="#experience" className="text-gray-800 hover:text-gray-600 dark:text-gray-200 dark:hover:text-gray-50">Experience</a>
+                        <a href="#education" className="text-gray-800 hover:text-gray-600 dark:text-gray-200 dark:hover:text-gray-50">Education</a>
+                        <a href="#footer" className="text-gray-800 hover:text-gray-600 dark:text-gray-200 dark:hover:text-gray-50">Contact</a>
                         <ModeToggle />
                     </div>
                 </div>

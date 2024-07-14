@@ -38,7 +38,7 @@ export const Volunteer = () => {
             <div className="py-2">
                 {
                     volunteers.map((volunteer, index) => (
-                        <div key={index} className="flex justify-between py-2">
+                        <div key={index} className="flex justify-between py-2 hover:transition-all hover:bg-slate-100 hover:rounded hover:mb-5 hover:cursor-pointer dark:hover:bg-slate-900">
                             <div className="flex md:space-x-5">
                                 <div className="hidden md:flex mt-1 justify-center pl-4">
                                     <a href={volunteer.company_url} target="_blank">
