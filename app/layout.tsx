@@ -4,6 +4,7 @@ import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider"
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import ScrollToTopButton from "@/components/scroll-to-top-button";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -32,6 +33,7 @@ export default function RootLayout({
             {children}
           </ThemeProvider>
           <Analytics />
+          <SpeedInsights />
           <ScrollToTopButton />
         </div>
       </body>
